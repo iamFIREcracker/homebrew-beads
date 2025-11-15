@@ -2,11 +2,22 @@
 
 Homebrew tap for [beads](https://github.com/steveyegge/beads) - an AI-supervised issue tracker for coding workflows.
 
+## Differences from Upstream
+
+This fork includes:
+- **HEAD install support**: Install the latest development version from the main branch
+
 ## Installation
 
 ```bash
-brew tap steveyegge/beads
+brew tap iamFIREcracker/homebrew-beads
 brew install bd
+
+# Or install HEAD (latest development version)
+brew install --HEAD bd
+
+# Or use the install script
+./scripts/install-head.sh
 ```
 
 ## Usage
